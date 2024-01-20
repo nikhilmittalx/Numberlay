@@ -2,32 +2,36 @@ import React from 'react'
 import logo from "../assets/NumberLay.svg"
 import logoWBG from "../assets/logoWBG.png"
 import coin from "../assets/Coins.svg"
+import insta from "../assets/insta.svg"
+import facebook from "../assets/facebook.svg"
+import linkedin from "../assets/linkedin.svg"
+import mail from "../assets/mail.svg"
 
 const Footer = () => {
   return (
     <>
         <div>
-            <div className='flex px-[2rem] py-[2rem] mt-[1rem] mx-[5vw]'>
+            <div className='flex px-[2rem] py-[2rem] mt-[1rem] mx-[1.5vw] slg:mx-[5vw]'>
 
-                {/* <div className='w-[30vw] flex flex-col px-2'>
+                <div className='w-[30vw] flex flex-col px-2'>
                     <div className='pt-4'><img src={logoWBG} alt="" className='h-[2rem]'/></div>
-                    <div className='mt-[1rem]'>We meticulously categorize financial transactions, capturing every detail, including descriptions and attachments.</div>
+                    <div className='mt-[1rem] text-[0.98rem] slg:text-[1.1rem]'>Your personalized financial ally</div>
                     <div className='flex mt-2'> 
-                        <div> @1</div>
-                        <div> @2</div>
-                        <div> @3</div>
+                        <div className=''> <a href=""> <img src={insta} alt="" className='p-[5px] pl-0'/></a> </div>
+                        <div> <a href=""> <img src={facebook} alt="" className='p-[5px]' /></a> </div>
+                        <div> <a href=""> <img src={linkedin} alt="" className='p-[5px]' /></a> </div>
                     </div>
                 </div>
 
 
                 <div className='w-[30vw] flex flex-col px-2'>
                     <div className='text-[2rem] font-[500]'>Our Services</div>
-                    <div>
+                    <div className='text-[0.98rem] slg:text-[1.1rem]'>
                         <ul>
                             <li>Bookkeeping</li>
-                            <li>Accounts Payable Services</li>
-                            <li>Reporting</li>
                             <li>Digital Record Management</li>
+                            <li>Payroll Management</li>
+                            <li>Account payable</li>
                             <li>Business Accounting Setup & Training</li>
                         </ul>
                     </div>
@@ -36,7 +40,7 @@ const Footer = () => {
 
                 <div className='w-[30vw] flex flex-col px-2'>
                     <div className='p-8'><img src={coin} alt="" className='w-[100%] max-h-[150px]'/></div>
-                </div> */}
+                </div>
 
             </div>
 
@@ -44,10 +48,15 @@ const Footer = () => {
             
             <div className='bg-blue-50 w-[90vw] h-[3rem] rounded-[2rem] mx-auto mt-[1rem] flex justify-evenly items-center'>
                 {/* <div>+1 5666285</div> */}
-                <div>info@numberlay.com</div>
+                <div className='flex'> <img src={mail} alt="" className='mr-2 w-[20px]' /> support@numberlaynow.com</div>
             </div>
 
-            <div className='my-4 text-center text-[0.9rem] text-[#006EFF] font-[600]'>© 2024 Copyright: Numberlay Private Limited</div>
+            <div className='flex flex-col md:flex-row items-center justify-center text-[0.9rem] my-4'> 
+                <div className=' text-center text-[#006EFF] font-[600] mx-1'>© 2024 Copyright: Numberlay Private Limited</div>
+                <div className=' text-center text-[#006EFF] font-[600] mx-1 underline underline-offset-2'>Privacy policy</div>
+                <div className=' text-center text-[#006EFF] font-[600] mx-1 underline underline-offset-2'>Terms & conditions</div>
+            </div>
+            {/* <div className='my-4 text-center text-[0.9rem] text-[#006EFF] font-[600]'>© 2024 Copyright: Numberlay Private Limited</div> */}
 
         </div>
         
