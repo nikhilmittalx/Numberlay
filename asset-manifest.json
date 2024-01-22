@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Numberlay/static/css/main.869d7e2e.css",
-    "main.js": "/Numberlay/static/js/main.9ab6d9f4.js",
-    "static/js/787.4c59526d.chunk.js": "/Numberlay/static/js/787.4c59526d.chunk.js",
+    "main.js": "/Numberlay/static/js/main.b92ceb68.js",
+    "static/js/787.901f0386.chunk.js": "/Numberlay/static/js/787.901f0386.chunk.js",
     "static/media/2.svg": "/Numberlay/static/media/2.aff830d77550073b62d6dd0dfcf95e08.svg",
     "static/media/6.svg": "/Numberlay/static/media/6.af6b9cfcebf4172e232aa38b3ec817cd.svg",
     "static/media/3.svg": "/Numberlay/static/media/3.59685dcfedd6481b39d48ca983e15bed.svg",
@@ -23,11 +23,11 @@
     "static/media/dot.svg": "/Numberlay/static/media/dot.a8e998bbf0b63b27882f1a9cffcafcca.svg",
     "static/media/lines.svg": "/Numberlay/static/media/lines.010c268810055eb87c5a8d96dfd7ea2b.svg",
     "main.869d7e2e.css.map": "/Numberlay/static/css/main.869d7e2e.css.map",
-    "main.9ab6d9f4.js.map": "/Numberlay/static/js/main.9ab6d9f4.js.map",
-    "787.4c59526d.chunk.js.map": "/Numberlay/static/js/787.4c59526d.chunk.js.map"
+    "main.b92ceb68.js.map": "/Numberlay/static/js/main.b92ceb68.js.map",
+    "787.901f0386.chunk.js.map": "/Numberlay/static/js/787.901f0386.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.869d7e2e.css",
-    "static/js/main.9ab6d9f4.js"
+    "static/js/main.b92ceb68.js"
   ]
 }
