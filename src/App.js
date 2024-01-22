@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Terms from './components/Terms';
 import Footer from './components/Footer';
 import { useState } from 'react';
-import {Route,Routes, HashRouter} from "react-router-dom"
+import {BrowserRouter as Router, Route,Routes, HashRouter} from "react-router-dom"
 
 
 
@@ -22,7 +22,7 @@ function App() {
     // <div className="App">
       
     // </div>
-    <HashRouter>
+    <Router>
       <Navbar handleNav={handleNav}/>
       <Routes>
         <Route path="/" element={<Home a={openn}/>} /> 
@@ -32,7 +32,7 @@ function App() {
         <Route path="/Numberlay/privacy" element={<Terms/>}> </Route>
       </Routes>
       <Footer/>
-    </HashRouter>
+    </Router>
     // <>
 
     //     <Navbar handleNav={handleNav} a={openn}/>
