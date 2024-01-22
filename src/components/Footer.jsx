@@ -90,7 +90,7 @@ const Footer = () => {
 
             <div className='flex flex-col md:flex-row items-center justify-center text-[0.9rem] my-4 text-[#A2B3FF] '> 
                 <div className=' text-center  font-[600] mx-1'>© 2024 Copyright: Numberlay Private Limited</div>
-                <div className=' text-center  font-[600] mx-1 underline underline-offset-2'><a href="numberlay/privacy">Privacy policy and Terms of Use</a></div>
+                <div className=' text-center  font-[600] mx-1 underline underline-offset-2'><a href="/privacy">Privacy policy and Terms of Use</a></div>
                 {/* <div className=' text-center text-[#006EFF] font-[600] mx-1 underline underline-offset-2'>Terms & conditions</div> */}
             </div>
             {/* <div className='my-4 text-center text-[0.9rem] text-[#006EFF] font-[600]'>© 2024 Copyright: Numberlay Private Limited</div> */}
