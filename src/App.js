@@ -1,24 +1,49 @@
 import logo from './logo.svg';
 import './App.css';
-import Temp from './components/Temp';
-import Header from './components/Header';
+// import Temp from './components/Temp';
+// import Header from './components/Header';
 import Navbar from './components/Navbar';
+// import Nav from './components/Nav';
+import Home from './components/Home';
+import Terms from './components/Terms';
 import Footer from './components/Footer';
+import { useState } from 'react';
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
+
+
 
 function App() {
+  const [openn, setOpenn] = useState(false);
+  const handleNav = ()=>{
+    setOpenn(!openn);
+    console.log(openn, "-=-=-");
+  }
   return (
     // <div className="App">
       
     // </div>
-    <>
-      <Navbar />
-      <Header/>
-      <Temp />
-      <div className='mt-[5rem] no-scrollbar'>
-        <iframe className="border-0 w-[100%] no-scrollbar" height="630px" src="https://noteforms.com/forms/contact-numberlay-yq6oyz"></iframe>
-      </div>
-      <Footer />
-    </>
+    <Router>
+      <Navbar handleNav={handleNav}/>
+      <Routes>
+      <Route exact path="/" element={<Home a={openn}/>}> </Route>
+      <Route exact path="/Numberlay" element={<Home a={openn}/>}> </Route>
+      <Route exact path="/privacy" element={<Terms/>}> </Route>
+      </Routes>
+      <Footer/>
+    </Router>
+    // <>
+
+    //     <Navbar handleNav={handleNav} a={openn}/>
+    //     <Header />
+    //     <Temp />
+    //     <div className='mt-[5rem] no-scrollbar'>
+    //       <iframe className={`border-0 w-[100%] no-scrollbar `} height="630px" src="https://noteforms.com/forms/contact-numberlay-yq6oyz"></iframe>
+    //     </div>
+    //     <Footer />
+
+
+
+    // </>
   );
 }
 
