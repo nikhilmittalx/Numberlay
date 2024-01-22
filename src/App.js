@@ -28,6 +28,7 @@ function App() {
       <Route exact path="/" element={<Home a={openn}/>}> </Route>
       <Route exact path="/Numberlay" element={<Home a={openn}/>}> </Route>
       <Route exact path="/privacy" element={<Terms/>}> </Route>
+      <Route exact path="/Numberlay/privacy" element={<Terms/>}> </Route>
       </Routes>
       <Footer/>
     </Router>
