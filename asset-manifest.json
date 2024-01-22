@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Numberlay/static/css/main.d42aa0f1.css",
-    "main.js": "/Numberlay/static/js/main.9bf8caa1.js",
+    "main.css": "/Numberlay/static/css/main.5e274148.css",
+    "main.js": "/Numberlay/static/js/main.0f5758bd.js",
     "static/js/787.4c59526d.chunk.js": "/Numberlay/static/js/787.4c59526d.chunk.js",
     "static/media/2.svg": "/Numberlay/static/media/2.aff830d77550073b62d6dd0dfcf95e08.svg",
     "static/media/6.svg": "/Numberlay/static/media/6.af6b9cfcebf4172e232aa38b3ec817cd.svg",
@@ -9,19 +9,25 @@
     "static/media/7.svg": "/Numberlay/static/media/7.d9dca8605f180c1217ccdb23fa973b5b.svg",
     "static/media/4.svg": "/Numberlay/static/media/4.9f6e3825bfb6408a40b1f76207b049cf.svg",
     "static/media/Coins.svg": "/Numberlay/static/media/Coins.3822b9833d19c4c56a858339cdb88dde.svg",
+    "static/media/logoWithoutBG.png": "/Numberlay/static/media/logoWithoutBG.cb56ee45651c3442d1c4.png",
     "static/media/1.svg": "/Numberlay/static/media/1.80be3400dc3b5dd2b2a56462bc1c89b6.svg",
     "static/media/5.svg": "/Numberlay/static/media/5.4ab464469ccb3e9d1da48ac090be89d3.svg",
     "static/media/NumberLay.svg": "/Numberlay/static/media/NumberLay.bd2d2ab4ff906aef2690e91665e8c864.svg",
+    "static/media/insta.svg": "/Numberlay/static/media/insta.78ac80d05d95bdd73554902e81268664.svg",
     "static/media/logo.svg": "/Numberlay/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/linkedin.svg": "/Numberlay/static/media/linkedin.094fd516412afddbb74d0525e39c649d.svg",
     "index.html": "/Numberlay/index.html",
+    "static/media/mail.svg": "/Numberlay/static/media/mail.f4179e9f1efdef884d4764c753773c67.svg",
+    "static/media/facebook.svg": "/Numberlay/static/media/facebook.adc7edf8154906f5a12441a056d4969c.svg",
+    "static/media/threeLines.svg": "/Numberlay/static/media/threeLines.317bc50c92894bf177b7fef280dcd505.svg",
     "static/media/dot.svg": "/Numberlay/static/media/dot.a8e998bbf0b63b27882f1a9cffcafcca.svg",
     "static/media/lines.svg": "/Numberlay/static/media/lines.010c268810055eb87c5a8d96dfd7ea2b.svg",
-    "main.d42aa0f1.css.map": "/Numberlay/static/css/main.d42aa0f1.css.map",
-    "main.9bf8caa1.js.map": "/Numberlay/static/js/main.9bf8caa1.js.map",
+    "main.5e274148.css.map": "/Numberlay/static/css/main.5e274148.css.map",
+    "main.0f5758bd.js.map": "/Numberlay/static/js/main.0f5758bd.js.map",
     "787.4c59526d.chunk.js.map": "/Numberlay/static/js/787.4c59526d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42aa0f1.css",
-    "static/js/main.9bf8caa1.js"
+    "static/css/main.5e274148.css",
+    "static/js/main.0f5758bd.js"
   ]
 }
