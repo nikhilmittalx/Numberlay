@@ -8,7 +8,7 @@ import Home from './components/Home';
 import Terms from './components/Terms';
 import Footer from './components/Footer';
 import { useState } from 'react';
-import {BrowserRouter as Router,Route,Routes, HashRouter} from "react-router-dom"
+import {Route,Routes, HashRouter} from "react-router-dom"
 
 
 
@@ -25,10 +25,11 @@ function App() {
     <HashRouter>
       <Navbar handleNav={handleNav}/>
       <Routes>
-      <Route exact path="/" element={<Home a={openn}/>}> </Route>
-      <Route exact path="/Numberlay" element={<Home a={openn}/>}> </Route>
-      <Route exact path="/privacy" element={<Terms/>}> </Route>
-      <Route exact path="/Numberlay/privacy" element={<Terms/>}> </Route>
+        <Route path="/" element={<Home a={openn}/>} /> 
+        {/* <Route path="/" element={<Home a={openn}/>}> </Route> */}
+        <Route path="/Numberlay" element={<Home a={openn}/>}> </Route>
+        <Route path="/privacy" element={<Terms/>} />
+        <Route path="/Numberlay/privacy" element={<Terms/>}> </Route>
       </Routes>
       <Footer/>
     </HashRouter>
